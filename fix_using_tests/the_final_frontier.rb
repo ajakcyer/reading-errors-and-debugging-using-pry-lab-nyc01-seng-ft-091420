@@ -12,7 +12,7 @@ def state_log(star_date)
 end
 
 
-def engage(date)
+def engage
   puts state_log(date)
   date = generate_star_date
 end
